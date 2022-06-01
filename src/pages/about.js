@@ -1,12 +1,12 @@
 import React from "react";
 
-function testPage() {
+function AboutPage() {
   return (
     <main>
       <title>자기소개</title>
-      <h1>테스트 페이지 입니다.</h1>
+      <h1>자기소개 페이지입니다.</h1>
     </main>
   );
 }
 
-export default testPage;
+export default AboutPage;
