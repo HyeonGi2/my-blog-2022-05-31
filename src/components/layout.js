@@ -28,7 +28,6 @@ function Layout({ pageTitle, children }) {
         {pageTitle} | {data.site.siteMetadata.title}
       </title>
       <header className={siteTitle}>{data.site.siteMetadata.title}</header>
-
       <nav>
         <ul className={navLinks}>
           <li className={navLinkItem}>
@@ -39,6 +38,11 @@ function Layout({ pageTitle, children }) {
           <li className={navLinkItem}>
             <Link className={navLinkText} to="/about">
               About
+            </Link>
+          </li>
+          <li className={navLinkItem}>
+            <Link className={navLinkText} to="/blog">
+              Blog
             </Link>
           </li>
         </ul>
